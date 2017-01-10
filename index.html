@@ -13,16 +13,16 @@
 
     </head>
 
-    <body >
-        <div id="title-div">
-          <input id="title" class="title" type="text" placeholder="Title of the counter" onsubmit="replaceP()">
-        </div>
+    <body>
+        <form onsubmit="replaceP()">
+          <input id="title" class="title" type="text" placeholder="Title of the counter" >
+        </form>
         <p id="counter-html" class="counter-html"></p>
         <button id="button-sum" onclick="sum()">+</button>
         <button id="button-difference" onclick="difference()">-</button>
         <!-- tellycounter.js -->
         <script src="js/tellycounter.js"></script>
-        <!-- jQuery --->
+        <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>

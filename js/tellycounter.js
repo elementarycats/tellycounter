@@ -13,7 +13,6 @@ function replaceP() {
   var pUsed = document.createElement('p');
   var nodeforP = document.createTextNode(titleName);
   pUsed.appendChild(nodeforP);
-  var parent = document.getElementsByTagName('title-div'); // testing this stuff
   var child = document.getElementById('title');
-  parent.replaceChild(pUsed, child)
+  child.replaceWith(pUsed);
 }
